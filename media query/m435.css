@@ -1,6 +1,7 @@
 @media (max-width:435px) {
 /* Two */
 .two{
+    background-image: ('../img/hero4.png');
     height: 80vh;
     background-repeat: no-repeat;
     background-position: top 10% left 0;
