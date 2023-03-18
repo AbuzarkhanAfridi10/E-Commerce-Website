@@ -1,0 +1,143 @@
+@media screen and (max-width:1024px) {
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.1);
+    left: 0;
+    top: 0;
+}
+nav{
+    width: 55%;
+}
+
+#navbar li a{
+    font-size: 1.15rem;
+}
+.two {
+    background-image: url(/img/hero4.png);
+    height: 94vh;
+    width: 100%;
+    background-size: 100%;
+    padding: 0 50px;
+    background-position: top 10% 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* three */
+.three{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* Four */
+
+.all-products{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+/* Six */
+.six{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.six .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    min-width: 420px;
+    height: 40vh;
+    background-size: cover;
+    background-position:center;
+    margin-top: 8px;
+    
+}
+.six .banner-box2{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    min-width: 420px;
+    height: 40vh;
+    background-size: cover;
+    background-position:center;
+}
+
+/* Seven */
+
+.seven{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: auto;
+    
+}
+.seven .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position:center;
+    padding: 20px;
+    margin-bottom: 19px;
+    opacity: 70%;
+}
+
+/* eight */
+.eight .form{
+    display: flex;
+    justify-content: center;
+    width: 66%;
+}
+.eight input{
+    height: 2.12rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+.eight button{
+    height: 2.12rem;
+    text-align: center;
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Footer */
+footer .App{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*  */
+
+}
