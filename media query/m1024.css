@@ -16,7 +16,7 @@ nav{
     font-size: 1.15rem;
 }
 .two {
-    background-image: url(/img/hero4.png);
+    background-image: url(../img/hero4.png);
     height: 94vh;
     width: 100%;
     background-size: 100%;
